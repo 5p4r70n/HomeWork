@@ -11,12 +11,12 @@ def grdcal(x):
         return("e")
     else : 
       return ("Failed")
-sa=[0,0,0,0,0,0]
-sb=[0,0,0,0,0,0]
+#sa=[0,0,0,0,0,0]
+#sb=[0,0,0,0,0,0]
+z1=0
 for i in range(5):
     z=int(input("What is yoursubjet mark"))
-    grdcal(z)
-    sa[x]=grdcal()
-    sb[x]=x
-for i in range(5):
-    print("your"sb[i]"grade is"sa[i])
+    z1=z1+z
+x=z1/5
+grade = grdcal(x)
+print("your grade is",grade)
